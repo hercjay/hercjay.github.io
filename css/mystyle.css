@@ -32,7 +32,43 @@ body {
     background-clip: text;
     color: transparent;
   }
-  
+
+  .bootstrap {
+    color: orange;
+    font-size: 0.7rem;
+  }
+  .javascript {
+    color: cyan;
+    font-size: 0.7rem;
+  }
+  .react {
+    color: green;
+    font-size: 0.7rem;
+  }
+  .html {
+    color: yellowgreen;
+    font-size: 0.7rem;
+  }
+  .php {
+    color: orchid;
+    font-size: 0.7rem;
+  }
+  .laravel {
+    color: pink;
+    font-size: 0.7rem;
+  }
+  .mysql {
+    color: yellow;
+    font-size: 0.7rem;
+  }
+  .ajax {
+    color:crimson;
+    font-size: 0.7rem;
+  }
+  .jquery {
+    color:rgb(83, 220, 20);
+    font-size: 0.7rem;
+  }
   
   /*--------------------------------------------------------------
   # Back to top button
@@ -517,13 +553,13 @@ body {
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #050d18;
+    color: var(--bright-text-color);
   }
   
   .resume .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid #1f5297;
+    border-left: 2px solid var(--lighter-primary-color);
     position: relative;
   }
   
@@ -532,14 +568,16 @@ body {
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
-    color: #050d18;
+    /* font-family: "Poppins", sans-serif; */
+    color: var(--text-color);
     margin-bottom: 10px;
   }
   
   .resume .resume-item h5 {
     font-size: 16px;
-    background: #e4edf9;
+    background: var(--my-gradient);
+    color: black;
+    border-radius: 10px;
     padding: 5px 15px;
     display: inline-block;
     font-weight: 600;
@@ -552,6 +590,11 @@ body {
   
   .resume .resume-item ul li {
     padding-bottom: 10px;
+    color: var(--text-color);
+  }
+
+  .resume .resume-item p {
+    color: var(--text-color);
   }
   
   .resume .resume-item:last-child {
@@ -567,12 +610,27 @@ body {
     left: -9px;
     top: 0;
     background: #fff;
-    border: 2px solid #1f5297;
+    border: 2px solid var(--lighter-primary-color);
   }
   
   /*--------------------------------------------------------------
   # Portfolio
   --------------------------------------------------------------*/
+
+  .portfolio-card {
+    background:  linear-gradient(75deg, rgba(24, 24, 24, 0.6), rgba(24, 24, 24, 0.2));
+    border-radius: 10px;
+  }
+
+ .portfolio-card-text {
+    color: var(--text-color)
+  }
+
+  .portfolio-card-title {
+    color: var(--bright-text-color);
+    font-weight: bold;
+  }
+
   .portfolio .portfolio-item {
     margin-bottom: 30px;
   }
