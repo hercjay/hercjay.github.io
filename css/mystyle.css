@@ -34,7 +34,7 @@ body {
   }
 
   .bootstrap {
-    color: orange;
+    color: rgb(98, 0, 255);
     font-size: 0.7rem;
   }
   .javascript {
@@ -67,6 +67,18 @@ body {
   }
   .jquery {
     color:rgb(83, 220, 20);
+    font-size: 0.7rem;
+  }
+  .tailwind {
+    color:rgb(0, 195, 255);
+    font-size: 0.7rem;
+  }
+  .firestore {
+    color:rgb(255, 166, 0);
+    font-size: 0.7rem;
+  }
+  .css {
+    color:rgb(0, 0, 255);
     font-size: 0.7rem;
   }
   
