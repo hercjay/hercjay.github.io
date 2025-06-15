@@ -81,6 +81,42 @@ body {
     color:rgb(78, 78, 255);
     font-size: 0.7rem;
   }
+  .purecounter {
+    color:rgb(158, 255, 78);
+    font-size: 0.7rem;
+  }
+    .typescript {
+    color:rgb(255, 31, 31);
+    font-size: 0.7rem;
+  }
+  .nextjs {
+    color:rgb(255, 0, 255);
+    font-size: 0.7rem;
+  }
+  .google-auth {
+    color: #ff5722;
+    font-size: 0.7rem;
+  }
+  .google-hosting {
+    color: #00bcd4;
+    font-size: 0.7rem;
+  }
+  .google-firebase {
+    color: #ffc107;
+    font-size: 0.7rem;
+  }
+  .reactjs,
+  .react-js {
+    color: #61dafb;
+    font-size: 0.7rem;
+  }
+
+  .tailwind-css {
+    color: #38bdf8;
+    font-size: 0.7rem;
+  }
+
+
 
   .btn-group > a {
     background-color: greenyellow;
