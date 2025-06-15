@@ -21,11 +21,11 @@ const webPortfolios = [
         github: "",
     },
     {
-        key: "dashboard",
+        key: "analytics-dashboard",
         title: "Analytics Dashboard",
         desc: "A fully responsive analytics dashboard design with theming functionality",
         stack: [ "PureCounter", "HTML", "Bootstrap", "JavaScript", "CSS" ],
-        imgMax: 4,
+        imgMax: 5,
         liveDemo: "https://hercjay.github.io/GeegpayChallengeFrontend",
         github: "https://github.com/hercjay/GeegpayChallengeFrontend",
     },
